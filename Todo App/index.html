@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Todo App</title>
+</head>
+
+<body>
+  <main>
+    <!-- SIDEBAR SECTION -->
+    <div class="sidebar">
+      <!-- Email and Initials Section -->
+      <div class="name-wrapper">
+        <div class="name-initials">
+          <p>OA</p>
+        </div>
+        <div class="fullname-wrapper">
+          <p class="main-name">Ajibaye Oyindamola</p>
+          <p class="email">ajibayeoyindamola@gmail.com</p>
+        </div>
+      </div>
+
+      <!-- Menu section -->
+      <div class="menu-wrapper">
+        <div class="menu-items">
+          <ion-icon class="my-may" size="small" name="sunny-outline"></ion-icon>
+          <p>My day</p>
+        </div>
+        <div class="menu-items">
+          <ion-icon class="important" size="small" name="star-outline"></ion-icon>
+          <p>Important</p>
+        </div>
+        <div class="menu-items">
+          <ion-icon class="planned" size="small" name="clipboard-outline"></ion-icon>
+          <p>Planned</p>
+        </div>
+        <div class="menu-items">
+          <ion-icon class="assigned" size="small" name="person-outline"></ion-icon>
+          <p>Assigned to me</p>
+        </div>
+        <div class="menu-items">
+          <ion-icon class="tasks" size="small" name="home-outline"></ion-icon>
+          <p>Tasks</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Remaining part of the page -->
+    <div class="home">
+      <!-- Header section -->
+      <div class="header-wrapper">
+        <h1 class="heading">My Day</h1>
+        <p>Wednesday, June 14</p>
+      </div>
+
+      <!-- Card section -->
+      <div class="card-wrapper">
+        <p class="card-title">Focus on your day</p>
+        <p class="card-body">
+          Get things with My Day, a list that refreshes everyday
+        </p>
+        <div class="task-wrapper">
+          <p>Add your first task</p>
+        </div>
+      </div>
+
+      <div class="selector">
+        <input type="text" id="newText" name="text" placeholder="Try, typing pay utilities bill by friday 6pm.">
+        <select>
+          <option value="3">3 secs time </option>
+          <option value="5">5 secs time </option>
+          <option value="8">8 secs time </option>
+        </select>
+        <button>Set Timer</button>
+      </div>
+    </div>
+  </main>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
+  <!-- <script src="toastr.js"></script> -->
+</body>
+
+</html>
